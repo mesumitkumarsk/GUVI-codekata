@@ -1,4 +1,4 @@
-###Guvi - Codekata
+# GUVI - Codekata
 
 This repository contains solutions for various questions available on the Codekata platform hosted by Guvi.in. Specifically tailored for students at **Galgotias University**, the repository covers topics, including **Gu - Introduction To Oops: Unit 1**.
 
