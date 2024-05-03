@@ -7,7 +7,7 @@ This repository contains solutions for various questions available on the Codeka
 <h3>Repository Structure:</h3>
 Each question is organized within its dedicated folder. The folder names are based on initial words from the question, ensuring easy navigation. Inside each folder, you’ll find two essential files:
 
-<h3>Question File:</h3>
+<h3>Question File (.md):</h3>
 &emsp; Contains the full question, providing context and details.
 
 <h3>Solution File (.py):</h3>
