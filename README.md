@@ -1,6 +1,6 @@
 # GUVI - Codekata
 
-This repository contains solutions for various questions available on the Codekata platform hosted by Guvi.in. Specifically tailored for students at **Galgotias University**, the repository covers topics, including 
+This repository contains solutions for **GUVI Courses** questions available on the Codekata platform hosted by guvi.com. Specifically tailored for students at **Galgotias University**, the repository covers topics, including 
 <br>1. **Gu - Introduction To Oops: Unit 1** 
 <br>2. **Gu - Inheritance And Exception Handling: Unit 2**.
 
