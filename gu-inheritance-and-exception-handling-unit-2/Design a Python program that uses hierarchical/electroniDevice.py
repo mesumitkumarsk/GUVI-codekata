@@ -11,7 +11,7 @@ class Mobile(ElectronicDevice):
     def __init__(self, name, price, screen_size):
         #..... YOUR CODE STARTS HERE .....
     
-        super()._init_(name,price)
+        super().__init__(name,price)
         self.screen_size=screen_size 
     
         #..... YOUR CODE ENDS HERE .....
@@ -19,7 +19,7 @@ class Mobile(ElectronicDevice):
     def print_details(self):
         #..... YOUR CODE STARTS HERE .....
     
-        return(f"Mobile: {self.name}, Price: ${self.price}, Screen Size: {self.screen_size} inches")
+        return(f"Mobile: {self.name}, Price: ${self.price}, Screen Size: {self.screen_size}")
     
         #..... YOUR CODE ENDS HERE .....
 
@@ -27,7 +27,7 @@ class Laptop(ElectronicDevice):
     def __init__(self, name, price, screen_resolution):
         #..... YOUR CODE STARTS HERE .....
     
-        super()._init_(name, price)
+        super().__init__(name, price)
         self.screen_resolution = screen_resolution
     
         #..... YOUR CODE ENDS HERE .....

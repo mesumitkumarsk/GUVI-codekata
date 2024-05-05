@@ -1,14 +1,14 @@
 class Pet:
     #..... YOUR CODE STARTS HERE .....
 
-    def eat(self):
-       pass
-    
-    def sleep(self):
+    def eat(self): 
         pass
     
-    def make_sound(self):
-        pass 
+    def sleep(self): 
+        pass
+    
+    def make_sound(self): 
+        pass
     
     #..... YOUR CODE ENDS HERE .....
 
@@ -16,10 +16,10 @@ class Pet:
 class Cat(Pet):
     #..... YOUR CODE STARTS HERE .....
     
-    def eat(self):
+    def eat(self): 
         print("Cat is eating.")
         
-    def sleep(self):
+    def sleep(self): 
         print("Cat is sleeping.")
         
     def make_sound(self): 
@@ -30,11 +30,13 @@ class Cat(Pet):
 class Dog(Pet):
     #..... YOUR CODE STARTS HERE .....
     
-    def eat(self):
-        print("Dog is eating:")
-    def sleep(self):
+    def eat(self): 
+        print("Dog is eating.")
+        
+    def sleep(self): 
         print("Dog is sleeping.")
-    def make_sound(self):
+        
+    def make_sound(self): 
         print("Dog is wagging its tail.")
     
     #..... YOUR CODE ENDS HERE .....
@@ -42,11 +44,13 @@ class Dog(Pet):
 class Bird(Pet):
     #..... YOUR CODE STARTS HERE .....
     
-    def eat(self):
+    def eat(self): 
         print("Bird is eating.")
-    def sleep(self):
+        
+    def sleep(self): 
         print("Bird is sleeping.")
-    def make_sound(self):
+        
+    def make_sound(self): 
         print("Bird is chirping.")
     
     #..... YOUR CODE ENDS HERE .....
