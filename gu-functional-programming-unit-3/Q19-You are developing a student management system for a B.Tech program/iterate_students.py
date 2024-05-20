@@ -5,11 +5,8 @@ from io import StringIO
 def iterate_students(students):
     #..... YOUR CODE STARTS HERE .....
     
-    stu = []
     for student in students: 
-        stu.append(student["id"])
-
-    return stu
+        print(f"Student ID: {student['id']}, Name: {student['name']}, Course: {student['course']}, Grade: {student['grade']}")
     
     #..... YOUR CODE ENDS HERE .....
     
