@@ -27,7 +27,7 @@ def process_test_cases():
         a = list(map(int, input().split()))
         #..... YOUR CODE STARTS HERE .....
 
-        test_cases = TestCase(n,x,a)
+        test_case = TestCase(n,x,a)
         qualified_elements = test_case.calculate_qualified_elements()
         results.append(qualified_elements)
 
