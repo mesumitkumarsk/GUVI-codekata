@@ -43,6 +43,6 @@ if __name__ == "__main__":
 
 top_student_finder = TopStudentFinder()
 top_student_finder.find_top_student(students_data)
-print(top_student_finder.get_top_student)
+print(top_student_finder.get_top_student())
 
     #..... YOUR CODE ENDS HERE .....
