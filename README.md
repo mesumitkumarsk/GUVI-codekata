@@ -5,7 +5,7 @@ This repository contains solutions for **GUVI Courses** questions available on t
 <br>2. **GI - Inheritance And Exception Handling: Unit 2**
 <br>3. **GU - Functional Programming: Unit 3**
 <br>
-<br> --> **Assignment Question of the following courses : - **
+<br> --> **Assignment Question of the following courses : -**
 <br>1. **Python Zero to Hero Assignments**
 <br>2. **100 Days of Python Beginner Assignments**
 <br>3. **100 Days of Python Intermediate Assignments**
