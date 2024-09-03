@@ -22,3 +22,25 @@ Each question is organized within its dedicated folder. The folder names are bas
 &emsp; Contains the actual solution code for the respective question.
 
 
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+INSERT INTO Persons VALUES (101, 'Bob', 'Alice', 'Sector', 'UP');
+INSERT INTO Persons VALUES (102, 'Kumar', 'Sachin', 'Sector One', 'UP');
+INSERT INTO Persons VALUES (103, 'Bhatt', 'Mahesh', 'Sector Two', 'UP'); 
+
+SELECT * FROM Persons;
+
+ALTER TABLE Persons ADD Email varchar (255);
+ALTER TABLE Persons RENAME Email to Personal;
+ALTER TABLE Persons DROP COLUMN Personal;
+
+
+ UPDATE Persons SET LastName= 'Albert' , FirstName='Gilbert' WHERE PersonID=101;
+
+
